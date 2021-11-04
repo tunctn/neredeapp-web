@@ -70,7 +70,7 @@ const MovieDetails = ({ movie, providers }: Props) => {
   const singleHeaderRef = useRef(null);
 
   useEffect(() => {
-    setLayoutState((prev) => ({ ...prev, site: "show" }));
+    setLayoutState((prev: any) => ({ ...prev, site: "show" }));
 
     if (singleRef.current && singleHeaderRef.current) {
       singleRef.current.style.height =
