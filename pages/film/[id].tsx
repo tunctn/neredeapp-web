@@ -61,6 +61,7 @@ export async function getStaticPaths() {
 
 interface Props {
   movie: IMovie;
+  providers: any;
 }
 
 const MovieDetails = ({ movie, providers }: Props) => {
