@@ -14,6 +14,9 @@ const Footer = () => {
           </a>
         </span>
         <div>
+          <span>{" / "}</span>
+        </div>
+        {/* <div>
           <span>
             Built with{" "}
             <a
@@ -46,7 +49,7 @@ const Footer = () => {
               @phiilu
             </a>
           </span>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

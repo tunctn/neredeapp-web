@@ -9,7 +9,7 @@ interface Props {
 const Meta = ({ title, children }: Props) => {
   return (
     <Head>
-      <title>{title} | Phiflix</title>
+      <title>{title} | Nerede</title>
       <link rel="icon" href="/favicon.ico" />
       {children}
     </Head>
